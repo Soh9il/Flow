@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		9351F94926E1839300F143DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351F94826E1839300F143DB /* AppDelegate.swift */; };
-		9351F94B26E1839300F143DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351F94A26E1839300F143DB /* SceneDelegate.swift */; };
-		9351F94D26E1839300F143DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351F94C26E1839300F143DB /* ViewController.swift */; };
+		9351F94D26E1839300F143DB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351F94C26E1839300F143DB /* SettingsViewController.swift */; };
 		9351F95026E1839300F143DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9351F94E26E1839300F143DB /* Main.storyboard */; };
 		9351F95226E1839500F143DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9351F95126E1839500F143DB /* Assets.xcassets */; };
 		9351F95526E1839500F143DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9351F95326E1839500F143DB /* LaunchScreen.storyboard */; };
 		9351F96026E1839500F143DB /* FlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351F95F26E1839500F143DB /* FlowTests.swift */; };
 		9351F96B26E1839500F143DB /* FlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351F96A26E1839500F143DB /* FlowUITests.swift */; };
+		9351F98826E18A2300F143DB /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351F98726E18A2300F143DB /* NewsViewController.swift */; };
+		9351F98D26E18A3500F143DB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351F98C26E18A3500F143DB /* SearchViewController.swift */; };
+		9351F99526E18DFD00F143DB /* ReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351F99426E18DFD00F143DB /* ReaderViewController.swift */; };
+		93C1304B2708B6450044B58F /* NewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1304A2708B6450044B58F /* NewsAPI.swift */; };
+		93C1304D2708B6760044B58F /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1304C2708B6760044B58F /* APIEndPoints.swift */; };
+		93C1304F2708B6A40044B58F /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1304E2708B6A40044B58F /* APIConfig.swift */; };
+		93C130512708BBC30044B58F /* NewsDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C130502708BBC30044B58F /* NewsDto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +43,7 @@
 /* Begin PBXFileReference section */
 		9351F94526E1839200F143DB /* Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9351F94826E1839300F143DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9351F94A26E1839300F143DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9351F94C26E1839300F143DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9351F94C26E1839300F143DB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		9351F94F26E1839300F143DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9351F95126E1839500F143DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9351F95426E1839500F143DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		9351F96626E1839500F143DB /* FlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9351F96A26E1839500F143DB /* FlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowUITests.swift; sourceTree = "<group>"; };
 		9351F96C26E1839500F143DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9351F98726E18A2300F143DB /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		9351F98C26E18A3500F143DB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9351F99426E18DFD00F143DB /* ReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewController.swift; sourceTree = "<group>"; };
+		93C1304A2708B6450044B58F /* NewsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPI.swift; sourceTree = "<group>"; };
+		93C1304C2708B6760044B58F /* APIEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoints.swift; sourceTree = "<group>"; };
+		93C1304E2708B6A40044B58F /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		93C130502708BBC30044B58F /* NewsDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +112,10 @@
 			isa = PBXGroup;
 			children = (
 				9351F94826E1839300F143DB /* AppDelegate.swift */,
-				9351F94A26E1839300F143DB /* SceneDelegate.swift */,
-				9351F94C26E1839300F143DB /* ViewController.swift */,
+				93C130482708A6050044B58F /* Controller */,
+				93C130472708A5F60044B58F /* View */,
+				93C130462708A5E90044B58F /* Model */,
+				9351F99926E1916B00F143DB /* Resources */,
 				9351F94E26E1839300F143DB /* Main.storyboard */,
 				9351F95126E1839500F143DB /* Assets.xcassets */,
 				9351F95326E1839500F143DB /* LaunchScreen.storyboard */,
@@ -126,6 +140,50 @@
 				9351F96C26E1839500F143DB /* Info.plist */,
 			);
 			path = FlowUITests;
+			sourceTree = "<group>";
+		};
+		9351F99926E1916B00F143DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93C130462708A5E90044B58F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93C130492708B5690044B58F /* Network */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93C130472708A5F60044B58F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93C130482708A6050044B58F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9351F94C26E1839300F143DB /* SettingsViewController.swift */,
+				9351F98726E18A2300F143DB /* NewsViewController.swift */,
+				9351F98C26E18A3500F143DB /* SearchViewController.swift */,
+				9351F99426E18DFD00F143DB /* ReaderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		93C130492708B5690044B58F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				93C1304A2708B6450044B58F /* NewsAPI.swift */,
+				93C1304C2708B6760044B58F /* APIEndPoints.swift */,
+				93C1304E2708B6A40044B58F /* APIConfig.swift */,
+				93C130502708BBC30044B58F /* NewsDto.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9351F94D26E1839300F143DB /* ViewController.swift in Sources */,
+				9351F99526E18DFD00F143DB /* ReaderViewController.swift in Sources */,
+				9351F94D26E1839300F143DB /* SettingsViewController.swift in Sources */,
+				93C1304F2708B6A40044B58F /* APIConfig.swift in Sources */,
 				9351F94926E1839300F143DB /* AppDelegate.swift in Sources */,
-				9351F94B26E1839300F143DB /* SceneDelegate.swift in Sources */,
+				93C1304D2708B6760044B58F /* APIEndPoints.swift in Sources */,
+				93C130512708BBC30044B58F /* NewsDto.swift in Sources */,
+				9351F98D26E18A3500F143DB /* SearchViewController.swift in Sources */,
+				9351F98826E18A2300F143DB /* NewsViewController.swift in Sources */,
+				93C1304B2708B6450044B58F /* NewsAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +507,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.soh9il.Flow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imperfectstudio.Flow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,7 +526,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.soh9il.Flow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imperfectstudio.Flow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
